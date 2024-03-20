@@ -10,7 +10,7 @@ void init_leds (void)
 	// Leds 4-7 are on PIO2_4-PIO2_7
 	LPC_GPIO2->DIR |= (1<<7) | (1<<6) | (1<<5) | (1<<4);
 }
-
+ 
 
 uint8_t get_leds (void)
 {
